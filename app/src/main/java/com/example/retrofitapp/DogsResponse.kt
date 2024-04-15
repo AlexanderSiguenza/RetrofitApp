@@ -9,6 +9,7 @@ class DogsResponse {
     @SerializedName("message")
     private var images: List<String?>? = null
 
+
     fun getStatus(): String? {
         return status
     }

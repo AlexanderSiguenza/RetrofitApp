@@ -14,7 +14,6 @@ class DogViewHolder(view: View?) : RecyclerView.ViewHolder(view!!) {
 
     fun bind(imageUrl: String?) {
         Picasso.get().load(imageUrl).into(itemDogBinding.ivDog)
-
     }
 }
 
