@@ -6,8 +6,30 @@ Ejemplo de Retrofit para consumir una api https://dog.ceo/api/breeds/list/all
 
 ## Estructura del Proyecto
 
-RetrofitApp/ ├── app/ │ ├── src/ │ │ ├── main/ │ │ │ ├── java/ │ │ │ │ └── com/ │ │ │ │ └── example/ │ │ │ │ └── retrofitapp/ │ │ │ │ ├── ApiService.kt │ │ │ │ ├── DogsResponse.kt │ │ │ │ ├── DogAdapter.kt │ │ │ │ ├── DogViewHolder.kt │ │ │ │ └── MainActivity.kt │ │ │ ├── res/ │ │ │ │ ├── layout/ │ │ │ │ │ ├── activity_main.xml │ │ │ │ │ └── item_dog.xml │ │ │ │ └── mipmap/ │ │ │ │ └── ic_launcher.png │ │ │ ├── AndroidManifest.xml │ │ │ └── ... │ │ └── ... │ └── build.gradle └── ...
-
+RetrofitApp/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── example/
+│   │   │   │           └── retrofitapp/
+│   │   │   │               ├── ApiService.kt
+│   │   │   │               ├── DogsResponse.kt
+│   │   │   │               ├── DogAdapter.kt
+│   │   │   │               ├── DogViewHolder.kt
+│   │   │   │               └── MainActivity.kt
+│   │   │   ├── res/
+│   │   │   │   ├── layout/
+│   │   │   │   │   ├── activity_main.xml
+│   │   │   │   │   └── item_dog.xml
+│   │   │   │   └── mipmap/
+│   │   │   │       └── ic_launcher.png
+│   │   │   ├── AndroidManifest.xml
+│   │   │   └── ...
+│   │   └── ...
+│   └── build.gradle
+└── ...
 
 ## Funcionalidades
 - **Búsqueda de Imágenes de Perros**: Permite al usuario buscar imágenes de perros por raza utilizando un `SearchView`.
